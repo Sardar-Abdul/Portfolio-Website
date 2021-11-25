@@ -8,11 +8,11 @@ function Menu({menuOpen, setMenuOpen, toggleNavbar}) {
                     <a href = '#intro'>Home</a>
                 </li>
                 <li className = 'li' onClick= {toggleNavbar}>
-                    <a href = '#portfolio'>About Me</a>
-                </li >
-                <li className = 'li' onClick= {toggleNavbar}>
                     <a href = '#work'>Portfolio</a>
                 </li>
+                <li className = 'li' onClick= {toggleNavbar}>
+                    <a href = '#portfolio'>About Me</a>
+                </li >
                 <li className = 'li' onClick= {toggleNavbar}>
                     <a href = '#contact'>Contact</a>
                 </li>

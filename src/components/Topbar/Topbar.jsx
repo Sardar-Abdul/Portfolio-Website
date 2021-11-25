@@ -1,5 +1,5 @@
 import './topbar.scss'
-import {Phone, Mail, Work} from '@material-ui/icons'
+import {PhoneOutlined, MailOutline, WorkOutline} from '@material-ui/icons'
 
 function topbar( { menuOpen, setMenuOpen, toggleNavbar}) {
     return (
@@ -8,15 +8,15 @@ function topbar( { menuOpen, setMenuOpen, toggleNavbar}) {
                 <div className= 'left'>
 
                     <div className = 'itemContainer'>
-                        <Work className = 'icon' />
+                        <WorkOutline className = 'icon' />
                         <span>Web Developer</span>
                     </div>
                     <div className = 'itemContainer'>
-                        <Phone className = 'icon'/>
+                        <PhoneOutlined className = 'icon'/>
                         <span>+92 342 0008441</span>
                     </div>
                     <div className = 'itemContainer'>
-                        <Mail className = 'icon'/>
+                        <MailOutline className = 'icon'/>
                         <span>affixalabdullah@gmail.com</span>
                     </div>
                 </div>

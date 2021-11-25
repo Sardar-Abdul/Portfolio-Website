@@ -16,8 +16,8 @@ function App() {
       <Menu menuOpen = {menuOpen} setmenuOpen = {setmenuOpen} toggleNavbar = {toggleNavbar}/>
       <div className = "sections">
         <Intro />
-        <Portfolio />
         <Work />
+        <Portfolio />
         <Contacts />
       </div>
     </div>

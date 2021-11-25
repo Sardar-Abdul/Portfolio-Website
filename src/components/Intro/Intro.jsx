@@ -22,7 +22,7 @@ function Intro() {
                     <h1>Abdullah Abbasi</h1>
                     <h3>Web <span ref = {textRef}></span></h3>
                 </div>
-                <a href = '#portfolio'>
+                <a href = '#work'>
                     <img src = 'assets/down.png' alt ='' />
                 </a>
             </div>
