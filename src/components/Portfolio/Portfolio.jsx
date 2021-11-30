@@ -21,6 +21,7 @@ function Portfolio() {
                 I enjoy building everything from small businesses to <br />rich interactive web pages. 
                 Once the proper information architecture is in place,<br />
                  I design the visual layer to create a beautiful user experience.</p>
+                 <hr />
             </div>
         </div>
     )

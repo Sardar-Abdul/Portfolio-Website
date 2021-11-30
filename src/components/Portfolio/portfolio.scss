@@ -2,7 +2,7 @@
 
 
 .portfolio {
-    background-color: rgb(224, 196, 196);
+    background-color: white;
 
     .header{
         font-size: 50px;
@@ -33,6 +33,10 @@
             margin-left: 100px;
             padding: 20px;
             font-weight: 300;
+        }
+        hr {
+            margin-top: 35px;
+            border-top: 2px solid crimson;
         }
     }
 }
